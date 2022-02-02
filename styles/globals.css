@@ -1,16 +1,31 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-image: url(../assets/images/Vector-grande\ \(1\).png);
+    background-repeat: repeat;
+    background-size: 100% auto;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.negativeBannerImg{
+    top: -40px;
+    position: relative;
 }
 
-* {
-  box-sizing: border-box;
+@layer components{
+    .MintBtn{
+        @apply text-center
+                w-full
+                border-4
+                border-l-white
+                border-t-white
+                border-b-slate-300
+                border-r-slate-300
+                text-2xl
+                py-3
+                font-bold
+                text-amber-400
+        ;
+    }
 }
