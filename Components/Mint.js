@@ -1,5 +1,6 @@
 import Image from "next/image";
 import ntfImage from "../assets/images/ntfimage.jpg";
+import Logo from '../assets/images/Logogege.png';
 import ntfImagePng from "../assets/images/ntfimage.png";
 import BannerImage from "../assets/images/imgmintcorner2.png";
 import IconImage from "../assets/images/imgmintleft.png";
@@ -21,7 +22,7 @@ const Mint = () => {
                             <h1> Whitelist can mint up to 8 Degentimes club</h1>
                         </div>
                         <div className="w-4/12 flex justify-center negativeBannerImg">
-                            <Image src={BannerImage}/>
+                            <Image src={Logo}/>
                         </div>
                     </div>
 
