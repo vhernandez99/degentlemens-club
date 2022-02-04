@@ -1,10 +1,10 @@
 const RoadMap = () => {
     return ( 
-        <div className="flex flex-col text-white rounded-lg ni:flex pt-8 pr-2 bg-black pb-8 xl:ml-52 xl:mr-52 xlmin:ml-0 xlmin:mr-0 border-t-2 border-t-slate-50 border-b-2 border-b-slate-50">
+        <div className="text-white md:rounded-lg md:mb-5 pt-8 pr-2 bg-Containers-0 pb-8 xl:ml-52 xl:mr-52 xlmin:ml-0 xlmin:mr-0 border-t-2 border-t-Containers-10 border-b-2 border-b-Containers-10">
             <div className="text-center text-3xl uppercase mb-10">
                 <h1>The RoadMap</h1>
             </div>
-            <div className="grid grid-cols-3 gap-5 p-10">
+            <div className="grid md:grid-cols-3 gap-5 p-10">
                 <div className="w-full flex flex-col justify-center items-center border-2 border-white p-5 rounded-lg">
                     <div className="text-2xl text-center mb-4">
                         <h1>Lorem lorem lorem</h1>

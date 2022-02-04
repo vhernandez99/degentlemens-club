@@ -3,9 +3,7 @@
 @tailwind utilities;
 
 body{
-    background-image: url(../assets/images/Vector-grande\ \(1\).png);
-    background-repeat: repeat;
-    background-size: 100% auto;
+    background-color: #323232;
 }
 
 .negativeBannerImg{

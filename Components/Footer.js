@@ -5,7 +5,7 @@ import { faYoutube, faInstagram, faDiscord, faTwitter} from '@fortawesome/free-b
 import { faArrowLeft} from '@fortawesome/free-solid-svg-icons';
 const Footer = () => {
     return ( 
-        <div className='md:flex text-white xl:ml-52 xl:mr-52 p-8 bg-black rounded-lg pl-6 pr-6'>
+        <div className='md:flex text-white xl:ml-52 xl:mr-52 p-8 bg-Containers-0 rounded-lg pl-6 pr-6 border-t-Containers-10 border-b-2 border-b-Containers-10'>
             <div className='md:w-1/3'>
                 <p>GET ON THE LIST</p>
                 <form>

@@ -11,6 +11,16 @@ module.exports = {
         'nii' : {'max':'640px'},
         'xlmin' : {'max':'1280px'},
         'mdmax' : {'max':'768px'}
+      },
+      colors:{
+        Navbar:{
+          0:"#FBF8F1",
+          10:"#F9B208"
+        },
+        Containers:{
+          0:"#191A19",
+          10:"#191919"
+        }
       }
     },
   },
