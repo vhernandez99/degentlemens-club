@@ -17,7 +17,7 @@ const Nav = () => {
     <div>
                 <header className='flex items-center w-full bg-Navbar-0 fixed z-10'>
             <div className='w-1/12 xlmin:w-1/3 h-full flex justify-center items-center'>
-                <div className='w-24 h-24 my-1'>
+                <div className='bg-black rounded-full w-24 h-24 my-1'>
                     <Image src={Logo} />
                 </div>
             </div>
