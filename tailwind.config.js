@@ -10,12 +10,14 @@ module.exports = {
         'ni' : {'min':'1024px'},
         'nii' : {'max':'640px'},
         'xlmin' : {'max':'1280px'},
-        'mdmax' : {'max':'768px'}
+        'mdmax' : {'max':'768px'},
+        'lgmm' : {'min':'850px'}
       },
       colors:{
         Navbar:{
           0:"#FBF8F1",
-          10:"#F9B208"
+          10:"#F9B208",
+          150:"#242320"
         },
         Containers:{
           0:"#191A19",

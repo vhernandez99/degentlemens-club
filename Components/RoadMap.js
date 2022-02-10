@@ -7,7 +7,7 @@ const RoadMap = () => {
             <div className="text-center text-3xl uppercase mb-10">
                 <h1>The RoadMap</h1>
             </div>
-            <div className="grid md:grid-cols-3 gap-5 lg:p-10 in:px-3">
+            <div className="grid lgmm:grid-cols-3 gap-5 lg:p-10 in:px-3">
 
                 <div data-aos="flip-right" className='flex group flex-col w-full h-128 border border-white rounded-lg '>
                     <div className='bg-Navbar-10 group-hover:bg-Containers-10 text-Containers-10 duration-300 group-hover:text-Navbar-0 flex justify-center items-center text-8xl h-1/2'>

@@ -13,7 +13,7 @@ const Mint = () => {
             </div>
             <div className="ni:flex">
                 <div className="ni:w-1/2 flex justify-center items-center">
-                    <Image src={ntfImagePng}/>
+                    <Image alt="" src={ntfImagePng}/>
                 </div>
                 <div className="ni:w-1/2 m-5 p-5 border-4 border-amber-400 rounded-lg">
                     <div className="flex w-full">
@@ -22,13 +22,13 @@ const Mint = () => {
                             <h1> Whitelist can mint up to 8 Degentimes club</h1>
                         </div>
                         <div className="w-4/12 flex justify-center negativeBannerImg">
-                            <Image src={BannerImage}/>
+                            <Image alt="" src={BannerImage}/>
                         </div>
                     </div>
 
                     <div className="ni:flex">
                         <div className="ni:w-4/12">
-                            <Image src={IconImage}/>
+                            <Image alt="" src={IconImage}/>
                         </div>
                         <div className="ni:w-8/12 font-bold ">
                             <h1 className="mb-2">Whitelist price 0.00 ETH public presale 0.00 ETH</h1>

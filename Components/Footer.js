@@ -1,8 +1,9 @@
 import Image from 'next/image';
-import ape from '../assets/images/bayc-footer.png';
+import ape from '../assets/images/image00001.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faYoutube, faInstagram, faDiscord, faTwitter} from '@fortawesome/free-brands-svg-icons';
 import { faArrowLeft} from '@fortawesome/free-solid-svg-icons';
+import Swal from 'sweetalert2';
 const Footer = () => {
     return ( 
         <div className='md:flex text-white xl:ml-52 xl:mr-52 p-8 bg-Containers-0 rounded-lg pl-6 pr-6 border-t-Containers-10 border-b-2 border-b-Containers-10'>
@@ -23,10 +24,16 @@ const Footer = () => {
                     <li className='mr-3'> <FontAwesomeIcon icon={faDiscord}/> </li>
                     <li className='mr-3'> <FontAwesomeIcon icon={faTwitter}/> </li>
                 </ul>
-                <p>© 2021 Yuga Labs LLC</p>
+                <p>© 2021 Degentlemens's Club NTFs</p>
                 <div className='flex-col'>
-                    <a href="#">BAYC Terms & Conditions</a>
-                    <a href="#">MAYC Terms & Conditions</a>
+                    <a className='cursor-pointer'  onClick={() => Swal.fire(
+                        'Degentlemenss Club NTFs & Conditions',
+                        'Esse nostrud minim in fugiat anim nulla eu commodo incididunt ea aliqua amet cillum culpa. Ad ad officia aute laborum qui amet laborum minim ullamco veniam et labore irure incididunt. Labore eiusmod ad aliquip veniam irure laboris consequat veniam exercitation minim commodo eu.',
+                        'question'
+                        )
+                    }>
+                        <u>Degentlemens's Club NTFs & Conditions</u>
+                    </a>
                 </div>
             </div>
         </div>

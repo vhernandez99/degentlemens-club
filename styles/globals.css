@@ -13,6 +13,11 @@ body{
     position: relative;
 }
 
+.negativeteamimg{
+    top: -20px;
+    position: relative;
+}
+
 @layer components{
     .MintBtn{
         @apply text-center
