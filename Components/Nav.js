@@ -13,109 +13,69 @@ const Nav = () => {
     const ChangeEstadoNavigador = () =>{
         cambiarEstadoNavigador(!navigator);
     }
-    return ( 
-    <div>
-                <header className='flex items-center w-full bg-Navbar-0 fixed z-10'>
-            <div className='w-1/12 xlmin:w-1/3 h-full flex justify-center items-center'>
-                <div className='bg-black rounded-full w-24 h-24 my-1'>
-                    <Image src={Logo} />
-                </div>
-            </div>
-            <nav className='w-7/12 xlmin:hidden'>
-                <ul className='flex'>
-                    <li className='w-1/12 flex justify-center hover:text-Navbar-10 duration-300'>
-                        <Link href={""} to="home" spy={true} smooth={true} duration={500}>
-                            <a>Home</a>
-                        </Link>
-                    </li>
-                    <li className='w-1/12 flex justify-center hover:text-Navbar-10 duration-300'>
-                        <Link activeClass="active" href={"/#about-us"} to="about-us" spy={true} smooth={true} duration={500}>
-                            <a>About us</a>
-                        </Link>
-                    </li>
-                    <li className='w-1/12 flex justify-center hover:text-Navbar-10 duration-300'>
-                        <Link href={""} to="roadmap" spy={true} smooth={true} duration={500}>
-                            <a>RoadMap</a>
-                        </Link>
-                    </li>
-                    <li className='w-1/12 flex justify-center hover:text-Navbar-10 duration-300'>
-                        <Link href={""} to="mint" spy={true} smooth={true} duration={500}>
-                            <a>The Mint</a>
-                        </Link>
-                    </li>
-                    <li className='w-1/12 flex justify-center hover:text-Navbar-10 duration-300'>
-                        <Link href={""} to="faq" spy={true} smooth={true} duration={500}>
-                            <a>FAQ</a>
-                        </Link>
-                    </li>
-                    <li className='w-1/12 flex justify-center hover:text-Navbar-10 duration-300'>
-                        <Link href={""} to="team" spy={true} smooth={true} duration={500}>
-                            <a>The Team</a>
-                        </Link>
-                    </li>
-                </ul>
-            </nav>
-            <div className='w-4/12 xlmin:w-1/3 flex justify-end xlmin:justify-center'>
-                <div className='w-1/12 xlmin:w-1/4'>
-                    <FontAwesomeIcon icon={faYoutube} className='bg-black text-white text-xl rounded' />
-                </div>
-                <div className='w-1/12 xlmin:w-1/4'>
-                    <FontAwesomeIcon icon={faYoutube} className='bg-black text-white text-xl rounded'/>
-                </div>
-                <div className='w-1/12 xlmin:w-1/4'>
-                    <FontAwesomeIcon icon={faYoutube} className='bg-black text-white text-xl rounded'/>
-                </div>
-                <div className='w-1/12 xlmin:w-1/4'>
-                    <FontAwesomeIcon icon={faYoutube} className='bg-black text-white text-xl rounded'/>
-                </div>
-            </div>
 
-            <div className='hidden xlmin:w-1/3 xlmin:flex xlmin:justify-end xlmin:pr-8'>
-                <FontAwesomeIcon icon={faBars} onClick={ChangeEstadoNavigador}/>
+return(
+    
+    <header className='w-full bg-Containers-0 fixed z-10'>
+        <div className='w-full flex justify-end in:justify-center md:px-5 text-2xl in:text-sm'>
+            <div className='p-2 mr-2 bg-Navbar-0 rounded-full text-Containers-0  flex justify-center items-center'>
+                <FontAwesomeIcon icon={faInstagram}/>
             </div>
-        </header>
+            <div className='p-2 mr-2 bg-Navbar-0 rounded-full text-Containers-0  flex justify-center items-center'>
+                <FontAwesomeIcon icon={faInstagram}/>
+            </div>
+            <div className='p-2 mr-2 bg-Navbar-0 rounded-full text-Containers-0  flex justify-center items-center'>
+                <FontAwesomeIcon icon={faInstagram}/>
+            </div>
+            <div className='p-2 mr-2 bg-Navbar-0 rounded-full text-Containers-0  flex justify-center items-center'>
+                <FontAwesomeIcon icon={faInstagram}/>
+            </div>
+        </div>
+        <nav className='in:hidden flex justify-center items-center text-xl pb-2'>
+            <ul className='flex justify-evenly w-1/4 border-y-2 border-y-Navbar-0 text-Navbar-0 py-5'>
+                <li><a>Home</a></li>
+                <li><a>About Us</a></li>
+                <li><a>Roadmap</a></li>
+            </ul>
+            <div>
+                <div className='mx-3 bg-black rounded-full flex justify-center items-center'>
+                    <Image alt='' width={80} height={80} src={Logo}/>
+                </div>
+            </div>
+            <ul className='flex justify-evenly w-1/4 border-y-2 border-y-Navbar-0 text-Navbar-0 py-5'>
+                <li><a>Mint</a></li>
+                <li><a>FAQ</a></li>
+                <li><a>Team</a></li>
+            </ul>
+        </nav>
+        <nav className='flex py-2 lg:hidden text-Navbar-0'>
+            <div onClick={ChangeEstadoNavigador} className='w-3/12 flex justify-center items-center text-2xl'>
+                <div>
+                    <FontAwesomeIcon icon={faBars}/>
+                </div>
+            </div>
+            <div className='w-9/12 flex justify-end items-center'>
+                <div className='mx-3 w-3/12 bg-Containers-0 rounded-full flex justify-center items-center'>
+                    <Image alt='' width={80} height={80} src={Logo}/>
+                </div>
+            </div>
+        </nav>
         {
             navigator && (
-                <div className='mt-24 w-full bg-Navbar-0 fixed z-10'>
-                    <ul className='flex flex-col'>
-                        <li className='w-full h-16 flex justify-center items-center'>
-                            <Link href={""} to="steps-section" spy={true} smooth={true} duration={500}>
-                                <a>Home</a>
-                            </Link>
-                        </li>
-                        <li className='w-full h-16 flex justify-center items-center'>
-                            <Link href={""} to="steps-section" spy={true} smooth={true} duration={500}>
-                                <a>About us</a>
-                            </Link>
-                        </li>
-                        <li className='w-full h-16 flex justify-center items-center'>
-                            <Link href={""} to="steps-section" spy={true} smooth={true} duration={500}>
-                                <a>RoadMap</a>
-                            </Link>
-                        </li>
-                        <li className='w-full h-16 flex justify-center items-center'>
-                            <Link href={""} to="steps-section" spy={true} smooth={true} duration={500}>
-                                <a>The Mint</a>
-                            </Link>
-                        </li>
-                        <li className='w-full h-16 flex justify-center items-center'>
-                            <Link href={""} to="steps-section" spy={true} smooth={true} duration={500}>
-                                <a>FAQ</a>
-                            </Link>
-                        </li>
-                        <li className='w-full h-16 flex justify-center items-center'>
-                            <Link href={""} to="steps-section" spy={true} smooth={true} duration={500}>
-                                <a>The Team</a>
-                            </Link>
-                        </li>
+                <div className='bg-Containers-0'>
+                    <ul className='text-white flex flex-col justify-center items-center space-y-4 py-4'>
+                        <li><a>Home</a></li>
+                        <li><a>About us</a></li>
+                        <li><a>Roadmap</a></li>
+                        <li><a>Mint</a></li>
+                        <li><a>FAQ</a></li>
+                        <li><a>Team</a></li>
                     </ul>
                 </div>
-            )
-        }
-    </div>
+            )}
+    </header>
+);
 
-        
-     );
 }
  
 export default Nav;
