@@ -17,7 +17,7 @@ const Nav = () => {
 return(
     
     <header className='w-full bg-Containers-0 fixed z-10'>
-        <div className='w-full flex justify-end in:justify-center md:px-5 text-2xl in:text-sm'>
+        <div className='w-full flex justify-end in:justify-center md:px-5 text-2xl pt-2 in:text-sm'>
             <div className='p-2 mr-2 bg-Navbar-0 rounded-full text-Containers-0  flex justify-center items-center'>
                 <FontAwesomeIcon icon={faInstagram}/>
             </div>
