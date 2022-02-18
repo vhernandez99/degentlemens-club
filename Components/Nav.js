@@ -19,20 +19,20 @@ return(
     <header className='w-full bg-Containers-0 fixed z-10'>
         <div className='w-full flex justify-end in:justify-center md:px-5 text-2xl pt-2 in:text-sm'>
             <div className='p-2 mr-2 bg-Navbar-0 rounded-full text-Containers-0  flex justify-center items-center'>
-                <FontAwesomeIcon icon={faInstagram}/>
+                <FontAwesomeIcon className='w-5 h-5' icon={faInstagram}/>
             </div>
             <div className='p-2 mr-2 bg-Navbar-0 rounded-full text-Containers-0  flex justify-center items-center'>
-                <FontAwesomeIcon icon={faInstagram}/>
+                <FontAwesomeIcon className='w-5 h-5' icon={faInstagram}/>
             </div>
             <div className='p-2 mr-2 bg-Navbar-0 rounded-full text-Containers-0  flex justify-center items-center'>
-                <FontAwesomeIcon icon={faInstagram}/>
+                <FontAwesomeIcon className='w-5 h-5' icon={faInstagram}/>
             </div>
             <div className='p-2 mr-2 bg-Navbar-0 rounded-full text-Containers-0  flex justify-center items-center'>
-                <FontAwesomeIcon icon={faInstagram}/>
+                <FontAwesomeIcon className='w-5 h-5' icon={faInstagram}/>
             </div>
         </div>
         <nav className='in:hidden flex justify-center items-center text-xl pb-2'>
-            <ul className='flex justify-evenly w-1/4 border-y-2 border-y-Navbar-0 text-Navbar-0 py-5'>
+            <ul className='flex lineneonpink justify-evenly w-1/4 border-y-2 border-y-Navbar-0 text-Navbar-0 py-5'>
                 <li><a>Home</a></li>
                 <li><a>About Us</a></li>
                 <li><a>Roadmap</a></li>
@@ -42,7 +42,7 @@ return(
                     <Image alt='' width={80} height={80} src={Logo}/>
                 </div>
             </div>
-            <ul className='flex justify-evenly w-1/4 border-y-2 border-y-Navbar-0 text-Navbar-0 py-5'>
+            <ul className='flex lineneonpink justify-evenly w-1/4 border-y-2 border-y-Navbar-0 text-Navbar-0 py-5'>
                 <li><a>Mint</a></li>
                 <li><a>FAQ</a></li>
                 <li><a>Team</a></li>
@@ -51,7 +51,7 @@ return(
         <nav className='flex py-2 lg:hidden text-Navbar-0'>
             <div onClick={ChangeEstadoNavigador} className='w-3/12 flex justify-center items-center text-2xl'>
                 <div>
-                    <FontAwesomeIcon icon={faBars}/>
+                    <FontAwesomeIcon className='w-5 h-5' icon={faBars}/>
                 </div>
             </div>
             <div className='w-9/12 flex justify-end items-center'>

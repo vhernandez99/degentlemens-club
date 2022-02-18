@@ -22,6 +22,11 @@ module.exports = {
         Containers:{
           0:"#191A19",
           10:"#191919"
+        },
+        Primarycolors:{
+          0:"#5dffff",
+          10:"#ffb6c1",
+          150:"#FFFF86"
         }
       },
       spacing: {

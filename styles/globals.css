@@ -2,8 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+:root{
+    --color-primario:#232D34  ;
+    --color-secundario:#232D34 ;
+    --color-rosa:#FFFF86 ;
+}
+
 body{
-    background-color: #323232;
+    background-color: #232D34;
     scroll-behavior: smooth;
 
 }
@@ -16,6 +22,38 @@ body{
 .negativeteamimg{
     top: -20px;
     position: relative;
+}
+
+.neondiv{
+    border-top: 2px solid #5dffff;
+    border-bottom: 2px solid #5dffff;
+    border-left: 2px solid #4ed1d1;
+    border-right: 2px solid #4ed1d1;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 0px 0px 6px 0.5px #4ed1d1;
+  }
+
+.lineneonpink{
+    border-top: 2px solid #ffb6c1;
+    border-bottom: 2px solid #ffb6c1;
+    border-left: 2px solid #df9fa8;
+    border-right: 2px solid #df9fa8;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 0px 0px 6px 0.5px #df9fa8;
+}
+
+.neontextyellow {
+    text-shadow:
+      0 0 25px rgba(255, 255, 134, .7),
+      0 0 55px rgba(255, 255, 134, .7),
+      0 0 115px rgba(255, 255, 134, .7);
+    color: #FFFF86;
 }
 
 @layer components{
