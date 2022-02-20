@@ -56,6 +56,14 @@ body{
     color: #FFFF86;
 }
 
+.BannerIndex{
+    width: 100%;
+}
+
+.BannerIndex span{
+    width: 100% !important;
+}
+
 @layer components{
     .MintBtn{
         @apply text-center
