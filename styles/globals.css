@@ -11,8 +11,11 @@
 body{
     background-color: #232D34;
     scroll-behavior: smooth;
-
 }
+
+body::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+  }
 
 .negativeBannerImg{
     top: -40px;
