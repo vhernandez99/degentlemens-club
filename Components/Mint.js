@@ -1,7 +1,7 @@
 import Image from "next/image";
 import ntfImage from "../assets/images/ntfimage.jpg";
 import Logo from "../assets/images/Logogege.png";
-import ntfImagePng from "../assets/images/ntfimage.png";
+import ntfImagePng from "../assets/images/logofinal.png";
 import BannerImage from "../assets/images/imgmintcorner2.png";
 import IconImage from "../assets/images/imgmintleft.png";
 import { connect } from "../redux/blockchain/blockchainActions";
@@ -65,7 +65,7 @@ const Mint = () => {
         <hr className="w-5/12 in:hidden lineneonpink"></hr>
       </div>
       <div className="ni:flex">
-        <div className="ni:w-1/2 flex justify-center items-center">
+        <div className="ni:w-1/2 in:hidden flex justify-center items-center">
           <Image alt="" src={ntfImagePng} />
         </div>
         <div className="ni:w-1/2 m-5 p-5 border-4 lineneonpink rounded-lg">
@@ -85,7 +85,7 @@ const Mint = () => {
             </div>
             <div className="ni:w-8/12 font-bold ">
               <h1 className="mb-2">
-                Whitelist price 0.00 ETH public presale 0.00 ETH
+                Whitelist price 0.06 ETH public presale 0.00 ETH
               </h1>
               <h1>Connect to blockchain</h1>
             </div>
@@ -95,14 +95,14 @@ const Mint = () => {
             <div className="flex justify-between ni:text-2xl mt-5">
               <input
                 className="bg-transparent"
-                placeholder="0.00 ETH"
+                placeholder="0.06 ETH"
                 type="number"
               />
               <p>5 MAX</p>
             </div>
             <div className="flex justify-between border-t-2 border-b-2 border-white my-5 py-2 ni:text-2xl">
               <h1>TOTAL</h1>
-              <h1>0.00 ETH</h1>
+              <h1>0.06 ETH</h1>
             </div>
             <div className="space-y-2">
               <button

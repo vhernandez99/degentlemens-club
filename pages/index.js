@@ -24,7 +24,7 @@ useEffect(() => {
         <Nav/>
         <div className="h-36"></div>
         <ImageBar/>
-        <Welcome/>
+        
         <About/>
         <RoadMap/>
         <Mint/>

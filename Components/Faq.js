@@ -15,10 +15,10 @@ const Faq = () => {
                     <AccordionFaq title={"What is the Degentlemen’s Club?"} content={"- The Degentlemen’s club is a collection of 6000 Saber-toothed degens roaming in the Ethereum jungle. Each NFT is unique and comes with holders-only benefits."}/>
                 </div>
                 <div className="mb-5">
-                    <AccordionFaq title={"What can you promise us?"} content={"- The only thing we can promise our holders is a unique NFT, and access to the &#34;VIP section&#34;, with an exclusive holders-only chat where everyone has a say in where we take this project. We won’t give any false promises. We have plans to build and will let the community decide what we do next. "}/>
+                    <AccordionFaq title={"What can you promise us?"} content={"- The only thing we can promise our holders is a unique NFT, and access to the 'VIP section', with an exclusive holders-only chat where everyone has a say in where we take this project. We won’t give any false promises. We have plans to build and will let the community decide what we do next. "}/>
                 </div>
                 <div className="mb-5">
-                    <AccordionFaq title={"Wen launch?"} content={"- We are expecting to launch early March, official dates TBA."}/>
+                    <AccordionFaq title={"When launch?"} content={"- We are expecting to launch early March, official dates TBA."}/>
                 </div>
                 <div className="mb-5">
                     <AccordionFaq title={"Mint price?"} content={"- We want to make sure all our supporters have access to our project, so we are aiming to keep mint price as low as possible. Price TBA."}/>

@@ -1,4 +1,5 @@
-import { faDiscord } from "@fortawesome/free-brands-svg-icons";
+import { faDiscord, faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faStore } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Metrics = () => {
@@ -11,7 +12,7 @@ const Metrics = () => {
                         <FontAwesomeIcon className='w-32 h-32' icon={faDiscord}/>
                     </div>
                     <div className="flex mb-10 justify-center text-4xl">
-                        <h1>100k</h1>
+                        <h1>450</h1>
                     </div>
                     <div className="flex neontextyellow justify-center text-center text-4xl">
                         <h6>Discord <br/> Members</h6>
@@ -19,24 +20,24 @@ const Metrics = () => {
                 </div>
                 <div data-aos="flip-left" className="lg:w-3/12 py-24 flex flex-col justify-center">
                     <div className="flex text-Navbar-10 mb-12 justify-center text-7xl">
-                        <FontAwesomeIcon className='w-32 h-32' icon={faDiscord}/>
+                        <FontAwesomeIcon className='w-32 h-32' icon={faStore}/>
                     </div>
                     <div className="flex mb-10 justify-center text-4xl">
                         <h1>100k</h1>
                     </div>
                     <div className="flex neontextyellow justify-center text-center text-4xl">
-                        <h6>Discord <br/> Members</h6>
+                        <h6>NFT <br/> Sold</h6>
                     </div>
                 </div>
                 <div data-aos="flip-left" className="lg:w-3/12 py-24 flex flex-col justify-center">
                     <div className="flex text-Navbar-10 mb-12 justify-center text-7xl">
-                        <FontAwesomeIcon className='w-32 h-32' icon={faDiscord}/>
+                        <FontAwesomeIcon className='w-32 h-32' icon={faTwitter}/>
                     </div>
                     <div className="flex mb-10 justify-center text-4xl">
-                        <h1>100k</h1>
+                        <h1>2.7k</h1>
                     </div>
                     <div className="flex neontextyellow justify-center text-center text-4xl">
-                        <h6>Discord <br/> Members</h6>
+                        <h6>Twitter <br/> Followers</h6>
                     </div>
                 </div>
             </div>
