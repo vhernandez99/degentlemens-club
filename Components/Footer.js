@@ -15,7 +15,7 @@ const Footer = () => {
     <footer className="md:flex text-white p-8  rounded-lg pl-6 pr-6 border-t-Containers-10 border-b-2 border-b-Containers-10 ">
       <div className="flex flex-col mx-auto items-center ">
         <div className="md:w-1/3 h-auto pl-40 pr-40">
-          <Image src={neonLogo} objectFit="cover" />
+          <Image src={neonLogo} objectFit="contain" className="w-8"/>
         </div>
         <div className="md:w-1/3 text-xl text-center">
           <p>© 2021 Degentlemens's Club NTFs</p>
