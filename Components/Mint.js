@@ -4,7 +4,8 @@ import Logo from "../assets/images/Logogege.png";
 import ntfImagePng from "../assets/images/logofinal.png";
 import BannerImage from "../assets/images/imgmintcorner2.png";
 import IconImage from "../assets/images/imgmintleft.png";
-import newlogo from "../assets/images/Neon_sign_Transparent.png";
+import neonLogo from "../assets/images/neonLogo.png";
+import blackLogo from "../assets/images/blackLogo.png";
 import { connect } from "../redux/blockchain/blockchainActions";
 import { fetchData } from "../redux/data/dataActions";
 import { useDispatch, useSelector } from "react-redux";
@@ -68,18 +69,17 @@ const Mint = () => {
       </div>
       <div className="ni:flex">
         <div className="ni:w-1/2 in:hidden flex justify-center items-center">
-          <Image alt="" src={ntfImagePng} />
+          <Image alt="" src={neonLogo} />
         </div>
-        <div className="ni:w-1/2 m-5 p-5 border-4 lineneonpink rounded-lg">
-          <div className="flex w-full h-1/2">
+        <div className="ni:w-1/2 m-5 p-5 border-4 lineneonpink rounded-lg ">
+          <div className="flex w-full">
             <div className="w-8/12 font-bold">
-              <h1 className="text-2xl mb-3">Degentimes club</h1>
+              <h1 className="text-2xl mb-3">Degentlemens club</h1>
             </div>
             <div className="w-4/12 flex justify-center negativeBannerImg">
               <Image alt="" objectFit="cover" src={BannerImage} />
             </div>
           </div>
-
 
           <div className="h-1/2">
             <div className="flex justify-between ni:text-2xl mt-5">
