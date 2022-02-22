@@ -96,6 +96,7 @@ const Mint = () => {
             <div className="space-y-2">
               <button
                 className="MintBtn"
+                disabled
                 onClick={(e) => {
                   console.log(blockchain.account);
                   if (
@@ -117,6 +118,7 @@ const Mint = () => {
               <div>{blockchain.account}</div>
               <button
                 className="MintBtn"
+                disabled
                 onClick={(e) => {
                   e.preventDefault();
                   dispatch(connect());
