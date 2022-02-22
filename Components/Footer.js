@@ -18,7 +18,7 @@ const Footer = () => {
           <Image src={neonLogo} objectFit="contain" layout="intrinsic" width={300} height={200}/>
         </div>
         <div className="md:w-1/3 text-xl text-center">
-          <p>© 2022 Degentlemens's Club NTFs</p>
+          <p>© 2022 Degentlemens's Club</p>
         </div>
         <div className="flex  space-x-4">
           <a
