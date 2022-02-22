@@ -29,7 +29,7 @@ const Index = () => {
         }
       />
       <Nav />
-      <div className="h-36"></div>
+      <div className="h-36 mdmax:h-24"></div>
       <ImageBar />
 
       <About />

@@ -2,7 +2,7 @@ import Image from "next/image";
 import ntfImage from "../assets/images/ntfimage.jpg";
 import Logo from "../assets/images/Logogege.png";
 import ntfImagePng from "../assets/images/logofinal.png";
-import BannerImage from "../assets/images/imgmintcorner2.png";
+import BannerImage from "../assets/images/banner.png";
 import IconImage from "../assets/images/imgmintleft.png";
 import neonLogo from "../assets/images/neonLogo.png";
 import blackLogo from "../assets/images/blackLogo.png";

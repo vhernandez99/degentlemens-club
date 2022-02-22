@@ -17,7 +17,7 @@ const Nav = () => {
 return(
     
     <header className='w-full bg-Containers-0 fixed z-10'>
-        <div className='w-full flex justify-end in:justify-center md:px-5 text-2xl pt-2 in:text-sm'>
+        <div className='mdmax:hidden w-full flex justify-end in:justify-center md:px-5 text-2xl pt-2 in:text-sm'>
             <div className='p-2 mr-2 bg-Navbar-0 rounded-full text-Containers-0  flex justify-center items-center'>
                 <a target="_blank" href='https://discord.gg/KYeQnxTX' rel="noopener noreferrer">
                     <FontAwesomeIcon className='w-5 h-5' icon={faDiscord}/>
@@ -116,12 +116,68 @@ return(
             navigator && (
                 <div className='bg-Containers-0'>
                     <ul className='text-white flex flex-col justify-center items-center space-y-4 py-4'>
-                        <li><a>Home</a></li>
-                        <li><a>About us</a></li>
-                        <li><a>Roadmap</a></li>
-                        <li><a>Mint</a></li>
-                        <li><a>FAQ</a></li>
-                        <li><a>Team</a></li>
+                    <Link
+                    activeClass="active"
+                    to="home"
+                    spy={true}
+                    smooth={true}
+                    duration={500}
+                    className='cursor-pointer'
+                    >
+                        <li onClick={() => cambiarEstadoNavigador(false)}><a>Home</a></li>
+                    </Link>
+                    <Link
+                    activeClass="active"
+                    to="about-us"
+                    spy={true}
+                    smooth={true}
+                    duration={500}
+                    className='cursor-pointer'
+                    >
+                        <li onClick={() => cambiarEstadoNavigador(false)}><a>About us</a></li>
+                    </Link>
+                    <Link
+                    activeClass="active"
+                    to="roadmap"
+                    spy={true}
+                    smooth={true}
+                    duration={500}
+                    className='cursor-pointer'
+                    >
+                        <li onClick={() => cambiarEstadoNavigador(false)}><a>Roadmap</a></li>
+                    </Link>
+                    <Link
+                    activeClass="active"
+                    to="Mint"
+                    spy={true}
+                    smooth={true}
+                    duration={500}
+                    className='cursor-pointer'
+                    >
+                        <li onClick={() => cambiarEstadoNavigador(false)}><a>Mint</a></li>
+                    </Link>
+                    <Link
+                    activeClass="active"
+                    to="faq"
+                    spy={true}
+                    smooth={true}
+                    duration={500}
+                    className='cursor-pointer'
+                    >
+                        <li onClick={() => cambiarEstadoNavigador(false)}><a>FAQ</a></li>
+                    </Link>
+                    <Link
+                    activeClass="active"
+                    to="team"
+                    spy={true}
+                    smooth={true}
+                    duration={500}
+                    className='cursor-pointer'
+                    >
+                        <li onClick={() => cambiarEstadoNavigador(false)}><a>Team</a></li>
+                    </Link>
+                        <li><a  target="_blank" href='https://discord.gg/KYeQnxTX' rel="noopener noreferrer">Discord</a></li>
+                        <li><a target="_blank" href='https://twitter.com/DegentlemensNFT' rel="noopener noreferrer">Twitter</a></li>
                     </ul>
                 </div>
             )}
