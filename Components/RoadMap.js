@@ -152,8 +152,8 @@ const RoadMap = () => {
 
               <p>
                 - Launch second collection where all holders will be able to
-                mint for FREE. Any unclaimed will be for public mint at a price
-                Tbd.
+                mint for FREE. Any unclaimed NFTs will be sold at public mint.
+           
               </p>
 
               <p className="my-3 text-2xl"> ● INITIATE ROADMAP PHASE 2 </p>
