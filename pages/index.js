@@ -20,7 +20,7 @@ useEffect(() => {
 
   return ( 
     <>
-        <SEO tittle={"Degentlemens's Club NTF"} description={"Et est in consequat id. Esse cillum aliqua eiusmod laborum dolor Lorem ex id labore cupidatat dolor eiusmod quis adipisicing. Tempor officia enim laboris duis labore qui. Voluptate cupidatat voluptate consectetur commodo nisi nulla ea labore qui ullamco est laboris. Enim nostrud officia nisi in mollit adipisicing irure id eu quis non et cillum. Culpa cillum reprehenderit amet ipsum laboris irure nisi dolore nisi. Enim reprehenderit sunt dolor magna amet duis ad elit nostrud elit sit cillum aute."}/>
+        <SEO tittle={"Degentlemens's Club"} description={"Et est in consequat id. Esse cillum aliqua eiusmod laborum dolor Lorem ex id labore cupidatat dolor eiusmod quis adipisicing. Tempor officia enim laboris duis labore qui. Voluptate cupidatat voluptate consectetur commodo nisi nulla ea labore qui ullamco est laboris. Enim nostrud officia nisi in mollit adipisicing irure id eu quis non et cillum. Culpa cillum reprehenderit amet ipsum laboris irure nisi dolore nisi. Enim reprehenderit sunt dolor magna amet duis ad elit nostrud elit sit cillum aute."}/>
         <Nav/>
         <div className="h-36"></div>
         <ImageBar/>

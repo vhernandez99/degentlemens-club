@@ -27,6 +27,11 @@ module.exports = {
           0:"#5dffff",
           10:"#ffb6c1",
           150:"#FFFF86"
+        },
+        TeamCircle:{
+          1:"#3a677e",
+          2:"#006d5b",
+          3:"#a9a9a9"
         }
       },
       spacing: {

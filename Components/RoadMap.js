@@ -3,7 +3,7 @@ import { faPaintBrush, faRocket, faStore, faVrCardboard } from '@fortawesome/fre
 
 const RoadMap = () => {
     return ( 
-        <div data-aos="fade-up" className="neondiv text-white md:rounded-lg md:mb-5 pt-8 pr-2 bg-Containers-0 pb-8 xl:ml-52 xl:mr-52 xlmin:ml-0 xlmin:mr-0 border-t-2 border-t-Containers-10 border-b-2 border-b-Containers-10">
+        <div data-aos="fade-up" id='roadmap' className="neondiv text-white md:rounded-lg md:mb-5 pt-8 pr-2 bg-Containers-0 pb-8 xl:ml-52 xl:mr-52 xlmin:ml-0 xlmin:mr-0 border-t-2 border-t-Containers-10 border-b-2 border-b-Containers-10">
             <div className="text-center flex justify-evenly items-center neontextyellow text-3xl uppercase mb-10">
                 <hr className="w-5/12 in:hidden lineneonpink"></hr>
                 <h1>RoadMap</h1>

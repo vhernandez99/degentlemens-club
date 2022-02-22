@@ -4,7 +4,7 @@ import Logo from '../assets/images/logofinal.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faYoutube, faInstagram, faDiscord, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { faBars } from '@fortawesome/free-solid-svg-icons'
-import Link from 'next/link';
+import {Link} from "react-scroll";
 
 const Nav = () => {
 
@@ -31,9 +31,36 @@ return(
         </div>
         <nav className='in:hidden flex justify-center items-center text-xl pb-2'>
             <ul className='flex lineneonpink justify-evenly w-1/4 border-y-2 border-y-Navbar-0 text-Navbar-0 py-5'>
-                <li><a>Home</a></li>
-                <li><a>About Us</a></li>
-                <li><a>Roadmap</a></li>
+                <Link
+                    activeClass="active"
+                    to="home"
+                    spy={true}
+                    smooth={true}
+                    duration={500}
+                    className='cursor-pointer'
+                >
+                    <li ><a>Home</a></li>
+                </Link>
+                <Link
+                    activeClass="active"
+                    to="about-us"
+                    spy={true}
+                    smooth={true}
+                    duration={500}
+                    className='cursor-pointer'
+                >
+                    <li><a>About Us</a></li>
+                </Link>
+                <Link
+                    activeClass="active"
+                    to="roadmap"
+                    spy={true}
+                    smooth={true}
+                    duration={500}
+                    className='cursor-pointer'
+                >
+                    <li><a>Roadmap</a></li>
+                </Link>
             </ul>
             <div>
                 <div className='mx-3 bg-black rounded-full flex justify-center items-center'>
@@ -41,9 +68,36 @@ return(
                 </div>
             </div>
             <ul className='flex lineneonpink justify-evenly w-1/4 border-y-2 border-y-Navbar-0 text-Navbar-0 py-5'>
+            <Link
+                    activeClass="active"
+                    to="Mint"
+                    spy={true}
+                    smooth={true}
+                    duration={500}
+                    className='cursor-pointer'
+                >
                 <li><a>Mint</a></li>
+            </Link>
+            <Link
+                    activeClass="active"
+                    to="faq"
+                    spy={true}
+                    smooth={true}
+                    duration={500}
+                    className='cursor-pointer'
+                >
                 <li><a>FAQ</a></li>
+            </Link>
+            <Link
+                    activeClass="active"
+                    to="team"
+                    spy={true}
+                    smooth={true}
+                    duration={500}
+                    className='cursor-pointer'
+                >
                 <li><a>Team</a></li>
+            </Link>
             </ul>
         </nav>
         <nav className='flex py-2 lg:hidden text-Navbar-0'>
