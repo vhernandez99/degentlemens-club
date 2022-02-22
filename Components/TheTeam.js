@@ -28,13 +28,13 @@ const TheTeam = () => {
         <div className="lg:flex mt-10 w-full justify-evenly">
           <div className="flex flex-col justify-center items-center text-2xl hover:translate-y-2 duration-300">
             <h1 className="mb-3 cursor-pointer">Founder</h1>
-            <div className="bg-TeamCircle-1 rounded-full w-64 h-64 flex justify-center items-center p-12">
+            <div className=" rounded-full w-64 h-64 flex justify-center items-center ">
               <a
                 target="_blank"
                 href="https://twitter.com/FalseCrackzz"
                 rel="noopener noreferrer"
               >
-                <Image alt="" src={nft1} />
+                <Image alt="" src={nft1} className="rounded-full" />
               </a>
             </div>
             <p className="mt-3 cursor-pointer">
@@ -43,13 +43,13 @@ const TheTeam = () => {
           </div>
           <div className="flex flex-col justify-center items-center text-2xl hover:translate-y-2 duration-300">
             <h1 className="mb-3 cursor-pointer">Community Manager</h1>
-            <div className="bg-TeamCircle-2 rounded-full w-64 h-64 flex justify-center items-center p-12">
+            <div className=" rounded-full w-64 h-64 flex justify-center items-center ">
               <a
                 target="_blank"
                 href="https://twitter.com/Bai_licious"
                 rel="noopener noreferrer"
               >
-                <Image alt="" src={nft2} />
+                <Image alt="" src={nft2} className="rounded-full" />
               </a>
             </div>
             <p className="mt-3 cursor-pointer">
@@ -58,13 +58,13 @@ const TheTeam = () => {
           </div>
           <div className="flex flex-col justify-center items-center text-2xl hover:translate-y-2 duration-300">
             <h1 className="mb-3 cursor-pointer">Community Manager</h1>
-            <div className="bg-TeamCircle-3 rounded-full w-64 h-64 flex justify-center items-center p-12">
+            <div className=" rounded-full w-64 h-64 flex justify-center items-center">
               <a
                 target="_blank"
                 href="https://twitter.com/0x_Wu"
                 rel="noopener noreferrer"
               >
-                <Image alt="" src={nft3} />
+                <Image alt="" src={nft3} className="rounded-full" />
               </a>
             </div>
             <p className="mt-3 cursor-pointer">

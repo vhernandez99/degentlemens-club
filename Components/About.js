@@ -11,7 +11,7 @@ const About = () => {
                 <p> As we move forward with our community we are always looking for new ways to provide value. In this space the possibilities are endless, and we look forward to exploring and expanding into the METAVERSE! So what are you waiting for? Join the Club! </p>
             </div>
             <div className="md:w-1/4 flex justify-center items-center">
-                <Image src={ImageNft}/>
+                <Image src={ImageNft} className="rounded-lg"/>
             </div>
         </div>
      );

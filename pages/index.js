@@ -13,9 +13,7 @@ import { useEffect } from "react";
 import Welcome from "../Components/Welcome";
 import Metrics from "../Components/Metrics";
 
-
 const Index = () => {
-
   useEffect(() => {
     AOS.init({ duration: 1000 });
   }, []);
@@ -30,19 +28,20 @@ const Index = () => {
       />
       <Nav />
       <div className="h-36 mdmax:h-24"></div>
-      <ImageBar />
+      <div className="p-4 space-y-2">
+        <ImageBar />
 
-      <About />
-      <RoadMap />
-      <Mint />
-      <Faq />
-      <TheTeam />
-      <Metrics />
+        <About />
+        <RoadMap />
+        <Mint />
+        <Faq />
+        <TheTeam />
+        <Metrics />
+      </div>
+
       <Footer />
     </>
   );
 };
 
 export default Index;
-
-
