@@ -15,10 +15,21 @@ const Footer = () => {
     <footer className="md:flex text-white p-8  rounded-lg pl-6 pr-6 border-t-Containers-10 border-b-2 border-b-Containers-10 ">
       <div className="flex flex-col mx-auto items-center ">
         <div className="md:w-2/3 h-auto ">
-          <Image src={neonLogo} objectFit="contain" layout="intrinsic" width={300} height={200}/>
+          <Image
+            src={neonLogo}
+            objectFit="contain"
+            layout="intrinsic"
+            width={300}
+            height={200}
+          />
         </div>
-        <div className="md:w-1/3 text-xl text-center">
-          <p>© 2022 Degentlemens's Club</p>
+
+        <div className="text-cente flex justify-evenly items-center neontextyellowr text-xl mb-5">
+          <hr className="w-3/12 in:hidden lineneonpink"></hr>
+          <h1 className="neontextyellow text-center mx-2">
+            © 2022 Degentlemen's Club
+          </h1>
+          <hr className="w-3/12 in:hidden lineneonpink"></hr>
         </div>
         <div className="flex  space-x-4">
           <a

@@ -18,17 +18,18 @@ return(
     
     <header className='w-full bg-Containers-0 fixed z-10'>
         <div className='mdmax:hidden w-full flex justify-end in:justify-center md:px-5 text-2xl pt-2 in:text-sm'>
-            <div className='p-2 mr-2 bg-Navbar-0 rounded-full text-Containers-0  flex justify-center items-center'>
+            <div className='p-2 mr-2 rounded-full text-Containers-0  flex justify-center items-center'>
                 <a target="_blank" href='https://discord.gg/KYeQnxTX' rel="noopener noreferrer">
-                    <FontAwesomeIcon className='w-5 h-5' icon={faDiscord}/>
+                    <FontAwesomeIcon className='w-5 h-5' icon={faDiscord} color="white"/>
                 </a>
             </div>
-            <div className='p-2 mr-2 bg-Navbar-0 rounded-full text-Containers-0  flex justify-center items-center'>
+            <div className='p-2 mr-2 rounded-full text-Containers-0  flex justify-center items-center'>
                 <a target="_blank" href='https://twitter.com/DegentlemensNFT' rel="noopener noreferrer">
-                    <FontAwesomeIcon className='w-5 h-5' icon={faTwitter}/>
+                    <FontAwesomeIcon className='w-5 h-5' icon={faTwitter} color="white"/>
                 </a>
             </div>
         </div>
+        
         <nav className='in:hidden flex justify-center items-center text-xl pb-2'>
             <ul className='flex lineneonpink justify-evenly w-1/4 border-y-2 border-y-Navbar-0 text-Navbar-0 py-5'>
                 <Link

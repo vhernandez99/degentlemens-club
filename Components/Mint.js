@@ -95,7 +95,7 @@ const Mint = () => {
             </div>
             <div className="space-y-2">
               <button
-                className="MintBtn"
+                className="MintBtn invisible"
                 disabled
                 onClick={(e) => {
                   console.log(blockchain.account);
@@ -117,7 +117,7 @@ const Mint = () => {
               </button>
               <div>{blockchain.account}</div>
               <button
-                className="MintBtn"
+                className="MintBtn "
                 disabled
                 onClick={(e) => {
                   e.preventDefault();
@@ -125,7 +125,7 @@ const Mint = () => {
                   getData();
                 }}
               >
-                Connect to Metamask
+               Coming soon
               </button>
             </div>
           </div>

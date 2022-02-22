@@ -14,7 +14,13 @@ const Metrics = () => {
       <div className="lg:flex justify-evenly">
         <div className="lg:w-3/12 py-24 flex flex-col justify-center">
           <div className="flex text-Navbar-10 mb-12 justify-center text-7xl">
-            <FontAwesomeIcon className="w-32 h-32" icon={faDiscord} />
+            <a
+              target="_blank"
+              href="https://discord.gg/KYeQnxTX"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon className="w-32 h-32" icon={faDiscord} />
+            </a>
           </div>
           <div className="flex mb-10 justify-center text-4xl">
             <h1>450</h1>
@@ -28,7 +34,13 @@ const Metrics = () => {
 
         <div className="lg:w-3/12 py-24 flex flex-col justify-center">
           <div className="flex text-Navbar-10 mb-12 justify-center text-7xl">
-            <FontAwesomeIcon className="w-32 h-32" icon={faTwitter} />
+            <a
+              target="_blank"
+              href="https://twitter.com/DegentlemensNFT"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon className="w-32 h-32" icon={faTwitter} />
+            </a>
           </div>
           <div className="flex mb-10 justify-center text-4xl">
             <h1>2.7k</h1>
