@@ -25,7 +25,7 @@ return(
             </div>
             <div className='p-2 mr-2 rounded-full text-Containers-0  flex justify-center items-center'>
                 <a target="_blank" href='https://twitter.com/DegentlemensNFT' rel="noopener noreferrer">
-                    <FontAwesomeIcon className='w-5 h-5' icon={faTwitter} color="white"/>
+                    <FontAwesomeIcon className='w-5 h-5' icon={faTwitter} color="white"faq/>
                 </a>
             </div>
         </div>
