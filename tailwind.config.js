@@ -26,7 +26,8 @@ module.exports = {
         Primarycolors:{
           0:"#5dffff",
           10:"#ffb6c1",
-          150:"#FFFF86"
+          150:"#FFFF86",
+          200:"#ccffff"
         },
         TeamCircle:{
           1:"#3a677e",

@@ -13,20 +13,20 @@ const RoadMap = () => {
         className="neondiv text-white md:rounded-lg md:mb-5 pt-8 pr-2 bg-Containers-0 pb-8 xl:ml-52 xl:mr-52 xlmin:ml-0 xlmin:mr-0 border-t-2 border-t-Containers-10 border-b-2 border-b-Containers-10"
       >
         <div className="text-center flex justify-evenly items-center neontextyellow text-3xl uppercase mb-10">
-          <hr className="w-5/12 in:hidden lineneonpink"></hr>
+          <hr className="w-5/12 in:hidden lineneonblue"></hr>
           <h1>RoadMap</h1>
-          <hr className="w-5/12 in:hidden lineneonpink"></hr>
+          <hr className="w-5/12 in:hidden lineneonblue"></hr>
         </div>
         <div className="grid lg:grid-cols-2 gap-5 lg:p-10 in:px-3">
           <div className="flex group flex-col w-full h-auto border border-white rounded-lg ">
-            <div className="bg-Primarycolors-10 py-20 group-hover:bg-Containers-10 text-Containers-10 duration-300 group-hover:text-Navbar-0 flex justify-center items-center text-8xl">
+            <div className="bg-Primarycolors-200 py-20 group-hover:bg-Containers-10 text-Containers-10 duration-300 group-hover:text-Navbar-0 flex justify-center items-center text-8xl">
               <FontAwesomeIcon className="w-32 h-32" icon={faRocket} />
             </div>
-            <div className="flex flex-col justify-center items-start h-auto px-8 py-4  tracking-wide text-xl duration-300 group-hover:bg-Primarycolors-10 group-hover:text-Containers-10">
+            <div className="flex flex-col justify-center items-start h-auto px-8 py-4  tracking-wide text-xl duration-300 group-hover:bg-Primarycolors-200 group-hover:text-Containers-10">
               <div className="text-3xl w-full flex justify-evenly items-center neontextyellow">
-                <hr className="w-5/12 lineneonpink"></hr>
+                <hr className="w-5/12 lineneonblue"></hr>
                 <h1>Q1</h1>
-                <hr className="w-5/12 lineneonpink"></hr>
+                <hr className="w-5/12 lineneonblue"></hr>
               </div>
 
               <p className="my-3 text-2xl">● Launch Collection</p>
@@ -70,14 +70,14 @@ const RoadMap = () => {
           </div>
 
           <div className="flex group flex-col w-full h-auto border border-white rounded-lg ">
-            <div className="bg-Primarycolors-10 py-20 group-hover:bg-Containers-10 text-Containers-10 duration-300 group-hover:text-Navbar-0 flex justify-center items-center text-8xl ">
+            <div className="bg-Primarycolors-200 py-20 group-hover:bg-Containers-10 text-Containers-10 duration-300 group-hover:text-Navbar-0 flex justify-center items-center text-8xl ">
               <FontAwesomeIcon className="w-32 h-32" icon={faStore} />
             </div>
-            <div className="flex flex-col justify-center items-start h-auto px-8 py-4  tracking-wide text-xl duration-300 group-hover:bg-Primarycolors-10 group-hover:text-Containers-10">
+            <div className="flex flex-col justify-center items-start h-auto px-8 py-4  tracking-wide text-xl duration-300 group-hover:bg-Primarycolors-200 group-hover:text-Containers-10">
               <div className="text-3xl w-full flex justify-evenly items-center neontextyellow">
-                <hr className="w-5/12 lineneonpink"></hr>
+                <hr className="w-5/12 lineneonblue"></hr>
                 <h1>Q2</h1>
-                <hr className="w-5/12 lineneonpink"></hr>
+                <hr className="w-5/12 lineneonblue"></hr>
               </div>
               <p className="my-3 text-2xl">● Launch Merch Store</p>
 
@@ -117,14 +117,14 @@ const RoadMap = () => {
           </div>
 
           <div className="flex group flex-col w-full h-auto border border-white rounded-lg ">
-            <div className="bg-Primarycolors-10 py-20 group-hover:bg-Containers-10 text-Containers-10 duration-300 group-hover:text-Navbar-0 flex justify-center items-center text-8xl ">
+            <div className="bg-Primarycolors-200 py-20 group-hover:bg-Containers-10 text-Containers-10 duration-300 group-hover:text-Navbar-0 flex justify-center items-center text-8xl ">
               <FontAwesomeIcon className="w-32 h-32" icon={faPaintBrush} />
             </div>
-            <div className="flex flex-col justify-start items-start h-full px-8 py-4  tracking-wide text-xl duration-300 group-hover:bg-Primarycolors-10 group-hover:text-Containers-10">
+            <div className="flex flex-col justify-start items-start h-full px-8 py-4  tracking-wide text-xl duration-300 group-hover:bg-Primarycolors-200 group-hover:text-Containers-10">
               <div className="text-3xl w-full flex justify-evenly items-center neontextyellow">
-                <hr className="w-5/12 lineneonpink"></hr>
+                <hr className="w-5/12 lineneonblue"></hr>
                 <h1>Q3</h1>
-                <hr className="w-5/12 lineneonpink"></hr>
+                <hr className="w-5/12 lineneonblue"></hr>
               </div>
               <p className="my-3 text-2xl">
                 ● Begin creating SECOND collection of Degentlemen’s Club.
@@ -139,14 +139,14 @@ const RoadMap = () => {
           </div>
 
           <div className="flex group flex-col w-full h-auto border border-white rounded-lg ">
-            <div className="bg-Primarycolors-10 py-20 group-hover:bg-Containers-10 text-Containers-10 duration-300 group-hover:text-Navbar-0 flex justify-center items-center text-8xl ">
+            <div className="bg-Primarycolors-200 py-20 group-hover:bg-Containers-10 text-Containers-10 duration-300 group-hover:text-Navbar-0 flex justify-center items-center text-8xl ">
               <FontAwesomeIcon className="w-32 h-32" icon={faVrCardboard} />
             </div>
-            <div className="flex flex-col justify-start items-start h-full px-8 py-4  tracking-wide text-xl duration-300 group-hover:bg-Primarycolors-10 group-hover:text-Containers-10">
+            <div className="flex flex-col justify-start items-start h-full px-8 py-4  tracking-wide text-xl duration-300 group-hover:bg-Primarycolors-200 group-hover:text-Containers-10">
               <div className="text-3xl w-full flex justify-evenly items-center neontextyellow">
-                <hr className="w-5/12 lineneonpink"></hr>
+                <hr className="w-5/12 lineneonblue"></hr>
                 <h1>Q4</h1>
-                <hr className="w-5/12 lineneonpink"></hr>
+                <hr className="w-5/12 lineneonblue"></hr>
               </div>
               <p className="my-3 text-2xl">● Launch Second collection</p>
 

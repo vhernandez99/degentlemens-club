@@ -62,6 +62,17 @@ input[type=number] {
     border-bottom-right-radius: 5px;
     box-shadow: 0px 0px 6px 0.5px #df9fa8;
 }
+.lineneonblue{
+    border-top: 2px solid #ccffff;
+    border-bottom: 2px solid #ccffff;
+    border-left: 2px solid #ccffff;
+    border-right: 2px solid #ccffff;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 0px 0px 6px 0.5px #ccffff;
+}
 
 .neontextyellow {
     text-shadow:
