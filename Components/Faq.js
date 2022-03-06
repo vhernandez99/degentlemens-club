@@ -32,7 +32,7 @@ const Faq = () => {
           />
         </div>
         <div className="mb-5">
-          <AccordionFaq title={"When launch?"} content={"- March 20, 2022."} />
+          <AccordionFaq title={"When launch?"} content={"-March 20, 2022."} />
         </div>
         <div className="mb-5">
           <AccordionFaq title={"Mint price?"} content={"-0.06 ETH"} />
