@@ -251,6 +251,15 @@ const Nav = () => {
                 Twitter
               </a>
             </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://raritysniper.com/"
+                rel="noopener noreferrer"
+              >
+                Rarity sniper
+              </a>
+            </li>
           </ul>
         </div>
       )}
