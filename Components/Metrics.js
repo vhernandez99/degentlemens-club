@@ -23,7 +23,7 @@ const Metrics = () => {
             </a>
           </div>
           <div className="flex mb-10 justify-center text-4xl">
-            <h1>1675</h1>
+            <h1>1682</h1>
           </div>
           <div className="flex neontextyellow justify-center text-center text-4xl">
             <h6>
