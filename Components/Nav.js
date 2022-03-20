@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import Logo from "../assets/images/logofinal.png";
+import os from "../assets/images/os.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faYoutube,
@@ -49,15 +50,15 @@ const Nav = () => {
             />
           </a>
         </div>
-        {/* <div className="p-2 mr-2 rounded-full text-Containers-0  flex justify-center items-center">
+        <div className="p-2 mr-2 rounded-full text-Containers-0  flex justify-center items-center">
           <a
             target="_blank"
-            href="https://raritysniper.com/"
+            href="https://opensea.io/collection/degentsclub"
             rel="noopener noreferrer"
           >
-            <Image src={rarity} width={20} height={20} />
+            <Image src={os} width={20} height={20} />
           </a>
-        </div> */}
+        </div>
       </div>
 
       <nav className="in:hidden flex justify-center items-center text-xl pb-2">
@@ -242,15 +243,15 @@ const Nav = () => {
                 Twitter
               </a>
             </li>
-            {/* <li>
+            <li>
               <a
                 target="_blank"
-                href="https://raritysniper.com/"
+                href="https://opensea.io/collection/degentsclub"
                 rel="noopener noreferrer"
               >
-                Rarity sniper
+                OpenSea Collection
               </a>
-            </li> */}
+            </li>
           </ul>
         </div>
       )}

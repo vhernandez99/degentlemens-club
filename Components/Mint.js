@@ -13,6 +13,7 @@ import { useEffect, useState } from "react";
 const Mint = () => {
   const whitelist = [
     "0x640d2de7fe856741c941806afdccb3b8e94cb4fd",
+    "0x94ef8cf9ad10d6901fcf58d34daa2d837655a1ac",
     "0xa7576d2b280a1e3fdab746a13c1f1ed48976a27b",
     "0xb6216706731c80d362ce3a7a7bc8468eda9a872d",
     "0xb25eef9df6172f4a93bc7dd06f8327f6e6463ee7",
@@ -370,7 +371,7 @@ const Mint = () => {
         to: "0x08b1AAef9fD158BbDF21C3Cad6408aFA7D35DF4c",
         from: blockchain.account,
         value: blockchain.web3.utils.toWei(
-          (0.04 * mintValue).toString(),
+          (0.06 * mintValue).toString(),
           "ether"
         ),
       })
@@ -435,13 +436,13 @@ const Mint = () => {
             <div className="flex justify-between ni:text-2xl mt-5">
               <input
                 className="bg-transparent w-full"
-                placeholder="0.04 ETH"
+                placeholder="0.06 ETH"
                 type="number"
               />
             </div>
             <div className="flex justify-between border-t-2 border-b-2 border-white my-5 py-2 ni:text-2xl">
               <h1>TOTAL</h1>
-              <h1>{`${mintValue * 0.04} ETH`}</h1>
+              <h1>{`${mintValue * 0.06} ETH`}</h1>
             </div>
             <div className="space-y-2">
               <select
