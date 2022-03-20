@@ -423,7 +423,7 @@ const Mint = () => {
               <h4 className="text-lg mb-3">
                 {blockchain.account === "" || blockchain.smartContract === null
                   ? "Connect to blockchain"
-                  : `${Number(data.totalSupply)}/6000 Minted! LFG`}
+                  : `${Number(data.totalSupply)}/6000 Degents Minted! LFG`}
               </h4>
             </div>
             <div className="w-4/12 flex justify-center negativeBannerImg">
