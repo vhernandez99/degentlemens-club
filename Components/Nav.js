@@ -20,7 +20,7 @@ const Nav = () => {
   };
 
   return (
-    <header className="w-full bg-Containers-0 fixed z-10">
+    <header className="w-full bg-Containers-0">
       <div className="mdmax:hidden w-full flex justify-end in:justify-center md:px-5 text-2xl pt-2 in:text-sm">
         <div className="p-2 mr-2 rounded-full text-Containers-0  flex justify-center items-center">
           <a
@@ -49,7 +49,7 @@ const Nav = () => {
             />
           </a>
         </div>
-        <div className="p-2 mr-2 rounded-full text-Containers-0  flex justify-center items-center">
+        {/* <div className="p-2 mr-2 rounded-full text-Containers-0  flex justify-center items-center">
           <a
             target="_blank"
             href="https://raritysniper.com/"
@@ -57,7 +57,7 @@ const Nav = () => {
           >
             <Image src={rarity} width={20} height={20} />
           </a>
-        </div>
+        </div> */}
       </div>
 
       <nav className="in:hidden flex justify-center items-center text-xl pb-2">
@@ -242,7 +242,7 @@ const Nav = () => {
                 Twitter
               </a>
             </li>
-            <li>
+            {/* <li>
               <a
                 target="_blank"
                 href="https://raritysniper.com/"
@@ -250,7 +250,7 @@ const Nav = () => {
               >
                 Rarity sniper
               </a>
-            </li>
+            </li> */}
           </ul>
         </div>
       )}
