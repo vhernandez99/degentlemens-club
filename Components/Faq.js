@@ -35,7 +35,10 @@ const Faq = () => {
           <AccordionFaq title={"When launch?"} content={"-March 20, 2022."} />
         </div>
         <div className="mb-5">
-          <AccordionFaq title={"Mint price?"} content={"-0.06 ETH"} />
+          <AccordionFaq
+            title={"Mint price?"}
+            content={"Presale: 0.04 eth, Public: 0.06 eth"}
+          />
         </div>
         <div className="mb-5">
           <AccordionFaq
@@ -48,9 +51,7 @@ const Faq = () => {
         <div className="mb-5">
           <AccordionFaq
             title={"How many can I mint for WL?"}
-            content={
-              "- You will be able to mint 5 during presale, more details will be out soon."
-            }
+            content={"Presale: Max 5, 5 per tx, Public: Max 15, 5 per tx"}
           />
         </div>
         <div className="mb-5">
