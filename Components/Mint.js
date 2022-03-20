@@ -437,6 +437,7 @@ const Mint = () => {
                 className="MintBtn bg-transparent"
                 onChange={(e) => SetMintValue(Number(e.target.value))}
               >
+                <option value={0}>Select Mint Amount</option>
                 <option value={1}>1</option>
                 <option value={2}>2</option>
                 <option value={3}>3</option>
@@ -460,7 +461,7 @@ const Mint = () => {
                   }
                 }}
               >
-                Coming soon
+                Mint
               </button>
             </div>
           </div>
