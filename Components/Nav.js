@@ -11,7 +11,7 @@ import {
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-scroll";
 import rarity from "../assets/images/rarity.png";
-
+import NextLink from "next/link"
 const Nav = () => {
   const [navigator, cambiarEstadoNavigador] = useState(false);
 
@@ -105,18 +105,15 @@ const Nav = () => {
           </div>
         </div>
         <ul className="flex lineneonpink justify-evenly w-1/4 border-y-2 border-y-Navbar-0 text-Navbar-0 py-5">
-          <Link
+          <NextLink href="#second-section" scroll={false}>
             activeClass="active"
             to="Mint"
             spy={true}
             smooth={true}
             duration={500}
             className="cursor-pointer"
-          >
-            <li>
-              <a>Mint</a>
-            </li>
-          </Link>
+          
+          </NextLink>
           <Link
             activeClass="active"
             to="faq"
