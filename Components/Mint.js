@@ -342,6 +342,9 @@ const Mint = () => {
     "0x477fda7ec7adb3768b94a846ee75f39fc0210c89",
     "0xa3bcc5244b48c142a2ce8fb91e221704873531ab",
     "0x48494a5b6e576b37cfdb84beacbc4f6c94723705",
+    "0xb9bcb3c153dbf96c826fd2bf00154a8868b30ee2",
+    "0x6399b8a7d2560a38efeb73d336302bc427e7136c",
+    "0xa5f8756147a4ebfb40bd32f4c789534b9fc1e017",
   ];
   const dispatch = useDispatch();
   const blockchain = useSelector((state) => state.blockchain);
@@ -427,7 +430,7 @@ const Mint = () => {
             </div>
             <div className="flex justify-between border-t-2 border-b-2 border-white my-5 py-2 ni:text-2xl">
               <h1>TOTAL</h1>
-              <h1>0.04 ETH</h1>
+              <h1>{`${mintValue * 0.04} ETH`}</h1>
             </div>
             <div className="space-y-2">
               <select
