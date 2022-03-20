@@ -366,7 +366,7 @@ const Mint = () => {
     blockchain.smartContract.methods
       .mint(mintValue)
       .send({
-        gasLimit: `${200000 * mintValue}`,
+        gasLimit: `${160000 * mintValue}`,
         to: "0x08b1AAef9fD158BbDF21C3Cad6408aFA7D35DF4c",
         from: blockchain.account,
         value: blockchain.web3.utils.toWei(
@@ -386,6 +386,12 @@ const Mint = () => {
         setClaimingNft(false);
         dispatch(fetchData(blockchain.account));
       });
+  };
+  const connectWallet = () => {
+    e.preventDefault();
+    dispatch(connect());
+    getData();
+    return;
   };
   const getData = () => {
     if (blockchain.account !== "" && blockchain.smartContract !== null) {
@@ -414,6 +420,11 @@ const Mint = () => {
           <div className="flex w-full">
             <div className="w-8/12 font-bold">
               <h1 className="text-2xl mb-3">Degentlemens club</h1>
+              <h4 className="text-lg mb-3">
+                {blockchain.account === "" || blockchain.smartContract === null
+                  ? "Connect to blockchain"
+                  : `${Number(data.totalSupply)}/6000 Minted! LFG`}
+              </h4>
             </div>
             <div className="w-4/12 flex justify-center negativeBannerImg">
               <Image alt="" objectFit="cover" src={BannerImage} />
@@ -436,6 +447,9 @@ const Mint = () => {
               <select
                 className="MintBtn bg-transparent"
                 onChange={(e) => SetMintValue(Number(e.target.value))}
+                disabled={
+                  blockchain.account === "" || blockchain.smartContract === null
+                }
               >
                 <option value={0}>Select Mint Amount</option>
                 <option value={1}>1</option>
@@ -448,20 +462,20 @@ const Mint = () => {
                 className="MintBtn "
                 onClick={(e) => {
                   if (
-                    claimingNft ||
                     blockchain.account === "" ||
                     blockchain.smartContract === null
                   ) {
                     e.preventDefault();
                     dispatch(connect());
                     getData();
-                    return;
                   } else {
                     claimNFTs();
                   }
                 }}
               >
-                Mint
+                {blockchain.account === "" || blockchain.smartContract === null
+                  ? "Connect"
+                  : "Mint"}
               </button>
             </div>
           </div>
