@@ -13,6 +13,7 @@ import { useEffect, useState } from "react";
 const Mint = () => {
   const whitelist = [
     "0x640d2de7fe856741c941806afdccb3b8e94cb4fd",
+    "0x08b1aaef9fd158bbdf21c3cad6408afa7d35df4c",
     "0x94ef8cf9ad10d6901fcf58d34daa2d837655a1ac",
     "0xa7576d2b280a1e3fdab746a13c1f1ed48976a27b",
     "0xb6216706731c80d362ce3a7a7bc8468eda9a872d",
