@@ -18,7 +18,6 @@ const Mint = () => {
   const [feedback, setFeedback] = useState("Maybe it's your lucky day.");
   const [claimingNft, setClaimingNft] = useState(false);
   const claimNFTs = () => {
-    console.log("first");
     if (mintValue <= 0) {
       return;
     }
@@ -31,7 +30,7 @@ const Mint = () => {
         to: "0x08b1AAef9fD158BbDF21C3Cad6408aFA7D35DF4c",
         from: blockchain.account,
         value: blockchain.web3.utils.toWei(
-          (0.06 * mintValue).toString(),
+          (0.04 * mintValue).toString(),
           "ether"
         ),
       })
@@ -97,13 +96,13 @@ const Mint = () => {
             <div className="flex justify-between ni:text-2xl mt-5">
               <input
                 className="bg-transparent w-full"
-                placeholder="0.06 ETH"
+                placeholder="0.04 ETH"
                 type="number"
               />
             </div>
             <div className="flex justify-between border-t-2 border-b-2 border-white my-5 py-2 ni:text-2xl">
               <h1>TOTAL</h1>
-              <h1>{`${mintValue * 0.06} ETH`}</h1>
+              <h1>{`${mintValue * 0.04} ETH`}</h1>
             </div>
             <div className="space-y-2">
               <select

@@ -37,7 +37,7 @@ const Faq = () => {
         <div className="mb-5">
           <AccordionFaq
             title={"Mint price?"}
-            content={"Presale: 0.04 eth, Public: 0.06 eth"}
+            content={"0.04 ETH"}
           />
         </div>
         <div className="mb-5">
