@@ -427,6 +427,9 @@ const Mint = () => {
                   ? "Connect to blockchain"
                   : `${Number(data.totalSupply)}/6000 Degents Minted! LFG`}
               </h4>
+              <h4 className="text-sm mb-3">
+               Public Sale Up To 15 Degents!
+              </h4>
             </div>
             <div className="w-4/12 flex justify-center negativeBannerImg">
               <Image alt="" objectFit="cover" src={BannerImage} />
