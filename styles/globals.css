@@ -1,0 +1,113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+    --color-primario:#232D34  ;
+    --color-secundario:#232D34 ;
+    --color-rosa:#FFFF86 ;
+}
+
+body{
+    background-color: #232D34;
+    scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+}
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+  }
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.negativeBannerImg{
+    top: -40px;
+    position: relative;
+}
+
+.negativeteamimg{
+    top: -20px;
+    position: relative;
+}
+
+.neondiv{
+    border-top: 2px solid #5dffff;
+    border-bottom: 2px solid #5dffff;
+    border-left: 2px solid #4ed1d1;
+    border-right: 2px solid #4ed1d1;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 0px 0px 6px 0.5px #4ed1d1;
+  }
+
+.lineneonpink{
+    border-top: 2px solid #ffb6c1;
+    border-bottom: 2px solid #ffb6c1;
+    border-left: 2px solid #df9fa8;
+    border-right: 2px solid #df9fa8;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 0px 0px 6px 0.5px #df9fa8;
+}
+.lineneonblue{
+    border-top: 2px solid #ccffff;
+    border-bottom: 2px solid #ccffff;
+    border-left: 2px solid #ccffff;
+    border-right: 2px solid #ccffff;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 0px 0px 6px 0.5px #ccffff;
+}
+
+.neontextyellow {
+    text-shadow:
+      0 0 25px rgba(182, 182, 93, 0.7),
+      0 0 55px rgba(182, 182, 93, 0.7),
+      0 0 115px rgba(182, 182, 93, 0.7);
+    color: #FFFF86;
+}
+
+.BannerIndex{
+    width: 100%;
+}
+
+.BannerIndex span{
+    width: 100% !important;
+}
+
+@layer components{
+    .MintBtn{
+        @apply text-center
+                w-full
+                border-4
+                border-l-white
+                border-t-white
+                border-b-slate-300
+                border-r-slate-300
+                text-2xl
+                py-3
+                font-bold
+                text-amber-400
+        ;
+    }
+}
